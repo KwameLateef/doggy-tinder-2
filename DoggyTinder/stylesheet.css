@@ -1,0 +1,55 @@
+/* google font CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* This font had two */
+    
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgba(208, 204, 208, 1);
+}
+
+.justify-content-center {
+    justify-content: flex-end!important;
+}
+
+.container {
+    display: flex; /* do this first to make children divs go in-line*/
+    justify-content: space-between; /* this was done to put space between th inline divs */
+} 
+
+.wrapper_sign_search {
+    padding-top: 10px;
+}
+
+.wrapper_title {
+    color:rgba(3, 29, 68, 1);
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.sign-in {
+    color: rgba(4, 131, 60, 1);
+}
+
+.about_container {
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: .5em;
+}
+/* spacing for pics */
+.test {
+    padding: 20px 40px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+.tag_line {
+    color: rgba(4, 131, 60, 1);
+}
